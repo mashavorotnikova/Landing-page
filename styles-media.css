@@ -1,0 +1,18 @@
+@media screen and (max-width: 1100px) {
+    .block1 {
+        height: auto;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .divider {
+        display: none;
+    }
+    .plans {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .plan {
+        position: initial;
+    }
+}
