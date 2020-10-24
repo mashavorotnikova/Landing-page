@@ -1,6 +1,8 @@
 body{
 font-family: sans-serif;
 margin:0;
+width:1601px;
+font:Inter;
 }	
 
 .header-top{
@@ -338,4 +340,102 @@ line-height: 50px;
 .plan-card-info {
 	color: #666666;
 	margin-top: 20px;
+}
+.reviews{
+	width: 1144px;
+	background: #FFFFFF;
+	border: 1px solid #E8E8EA;
+	box-sizing: border-box;
+	border-radius: 10px;
+	height:400px;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	margin: auto;
+}
+
+.review_divider{
+	border: 1px solid #E8E8EA;
+	height: 400px;
+}
+.quotes{
+	color: #DBE4F1;
+	height: 100px;
+	font-size: 150px;
+	letter-spacing: -0.1px;
+	padding:0;
+}
+.review{
+	width: 274px;
+	height: 357px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+	
+.text-review{
+	width:274px;
+	height:128px;
+	font-size: 18px;
+	line-height: 32px;
+}
+.avatar img{
+	border-radius:50%;
+}
+.avatar{
+	display:flex;
+	flex-direction:row;
+	padding:10px;
+	margin:10px;
+}
+
+.avatar img{
+	padding:10px;	
+}
+.management{
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+.manage_team{
+	padding:20px;
+}
+.management button{
+	width: 227px;
+	height: 50px;
+	border: none;
+	border-radius: 3px;
+	background-color: #50E3C2;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -5px;
+}
+.form{
+	height:514px;
+	background: #F8FBFE;
+	display:flex;
+	justify-content:center;
+}
+.title_form{
+	display:flex;
+	justify-content:row;
+}
+.form-block{
+	width:558px;
+	height:450px;
+	background-color:white;
+	box-shadow: 0 10px 20px rgb(0,0,0);
+}
+.fieldset p{
+	width:50px;
+	height:456px;
+}
+.send{
+	background: #50E3C2;
+}
+.end{
+	background: black;
+	height: 514px;
+	width:1600px;
 }
