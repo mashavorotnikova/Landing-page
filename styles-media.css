@@ -15,4 +15,16 @@
     .plan {
         position: initial;
     }
+	.reviews{
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+	.review_divider{
+		border:none;
+	}
+	.brands{
+		flex-direction: column;
+       
 }
+

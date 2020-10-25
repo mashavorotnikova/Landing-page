@@ -8,6 +8,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 		<script src="https://kit.fontawesome.com/8feebc7277.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="styles-media.css" />
+		<link rel="icon" type="image.png" href="image/logol.png">
 
 	</head>
 	<body>
@@ -18,9 +19,9 @@
 					<img src="image/logo.png" alt="logo Berlin">
 				</h1>
 				<nav class="menu-tabs">
-					<a href="#">Demos</a>
-					<a href="#">Pages</a>
-					<a href="#">Support</a>
+					<a href="#1якорь">Demos</a>
+					<a href="#2якорь">Pages</a>
+					<a href="#3якорь">Support</a>
 				</nav>		
 			</div>		
 			<div class="header-bottom"> 
@@ -31,7 +32,7 @@
 				
 			</div>
 		</header>
-		<div class="block1">
+		<div id="2якорь"class="block1">
 			<div class="card"> 
 				<div class="space light-red">
 					<div class="inner-space red"></div>
@@ -79,15 +80,18 @@
 			</div>
 		</div>
 		<div class="block4">
+			
 			<div class="space-play light-play_green">
 				<div class="traingle">
-				<img src="image/tria.png"></div>
+					<img src="image/tria.png">
+				</div>
 			</div>
 			<h2 class="title-success">We help you to be successful</h2>
 			<p class="description-success">Wireframes are generally created by business analysts, user experience designers,<br/> developers, visual designers, and by those with expertise</p>
+			<video class="video_block" src="video/movie.mp4" poster="none" controls width="100%" height="100%" />
 		</div>
 			<div class="block5">
-				<h2 class=plan_title>Choose a plan to start</h2>
+				<h2 class="plan_title">Choose a plan to start</h2>
 				<p>Wireframes are generally created by business analysts, user experience designers,<br/> developers, visual designers, and by those with expertise</p>
 				<div class="plan-select">
 					<div class="plan-tab">MONTHLY</div>
@@ -139,7 +143,7 @@
 					<img src="image/scetch.png">
 				</div>
 			</div>	
-			<div class="reviews">
+			<div id="1якорь" class="reviews">
 				<div class="review">
 					<div class="quotes">"</div>
 					<div class="text_review">“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.”</div>
@@ -184,33 +188,34 @@
 							</fieldset>
 						</form>
 			<div class="form">
-					<div class="form-block">
-					<h2 class="title_form">Please leave your request</h2>
-						<form name="questionnaire" method="post" action="obrabotchik.php">
-							<fieldset> 
-								<p>  
-									<input type="text" name="Name" placeholder="First name" required> 
-								</p>
-								<p>
-									<input type="text" name="Last name" placeholder="Last name" required>
-								</p>
-								<p>	
-									<input type="nuber" name="Phone" placeholder="Phone" required>
-								</p>
-								<p>
-									<input type="email" name="E-mail" placeholder="+375(29) 777-77-77" required>
-								</p>
-								<p> You can attach files or documents</p>
-								<div class="send">
-									<input type="submit" name="Send" value="Send">
-									</div>
-							</fieldset>
-						</form>
-					</div>
+				<h2 class="title_form">Please leave your request</h2>
+				<div class="form-block">
+					<form name="questionnaire" method="post" action="obrabotchik.php">
+						<fieldset> 
+							<input type="text" name="Name" placeholder="First name" required> 
+						
+							<input type="text" name="Last name" placeholder="Last name" required>
+				
+							<input type="number" name="Phone" placeholder="+375(29) 777-77-77" required>
+					
+							<input type="email" name="E-mail" placeholder="E-mail" required>
+							
+							<div class="attach_container">
+								<div class="attach"> You can attach files or documents</div>
+								<button class="attach_button"> <i class="fas fa-paperclip"></i> Attach button</button>
+							</div>
+							<div class="send">
+								<button type="submit"> Send
+								</button>
+							</div>
+						</fieldset>
+					</form>
 				</div>
+			</div>
 			<footer>
-				<div class="end">
+				<div id="3якорь" class="end">
 					<div class="menu-footer">
+						<div class="title-footer">Store</div>
 						<ul>
 							<li>Catalog</li>
 							<li>Popular</li>
@@ -219,6 +224,7 @@
 						</ul>
 					</div>
 					<div class="menu-footer">
+						<div class="title-footer">About</div>
 						<ul>
 							<li>Catalog</li>
 							<li>Popular</li>
@@ -226,6 +232,7 @@
 						</ul>
 					</div>
 					<div class="menu-footer">
+						<div class="title-footer">Policy</div>
 						<ul>
 							<li>Catalog</li>
 							<li>Popular</li>
@@ -233,6 +240,7 @@
 						</ul>
 					</div>
 					<div class="menu-footer">
+						<div class="title-footer">Team</div>
 						<ul>
 							<li>Catalog</li>
 							<li>Popular</li>
@@ -240,11 +248,25 @@
 						</ul>
 					</div>
 					<div class="menu-footer">
+						<div class="title-footer">Support</div>
 						<ul>
 							<li>Catalog</li>
 							<li>Popular</li>
 							<li>Features</li>
 						</ul>
+					</div>
+					<div class="footer-end">
+						<div class="copyrights">© 2019 Grayic. All rights reserved</div>
+						<div class="rights-block">
+							<div>Privacy Policy </div>
+							<div>Terms & Conditions</div>
+							<div>Site map</div>
+						</div>
+						<div class="social-media">
+							<i class="fab fa-lg fa-twitter"></i>
+							<i class="fab fa-lg fa-facebook-f"></i>
+							<i class="fab fa-lg fa-google"></i>
+						</div>
 					</div>
 				</div>
 			</footer>
