@@ -17,9 +17,11 @@ font:Inter;
 	position: fixed;
   display: flex;
   width: 80%;
-  left: 10%;
+ padding-left:10%;
+ padding-right:10%;
   margin: auto;
   justify-content: space-between;
+  z-index: 3;
  }
 .menu-tabs{
 	display: flex;
@@ -42,6 +44,7 @@ font:Inter;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	
 }
 .tegline{
 	font-size: 46px;
@@ -465,6 +468,7 @@ line-height: 50px;
 	height: 514px;
 	position:relative;
 	background:rgb(31, 23, 41);
+	background:linear-gradient(to top, rgba (77, 74, 99, 01), rgba(31, 23, 41, 0.1));
 	justify-content: space-around;
 }
 .title-footer{
@@ -490,6 +494,7 @@ line-height: 50px;
 	width:100%;
 	bottom:10px;
 	justify-content:space-around;
+	align-items: center;
 }
 .social-media{
 	
@@ -509,7 +514,7 @@ fieldset{
 }
 .video_block{
 	position:absolute;
-	object-fit: cover;
+	
 }
 .attach_container{
 	display:flex;
